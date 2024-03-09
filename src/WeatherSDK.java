@@ -3,7 +3,7 @@ import java.net.URISyntaxException;
 import java.util.HashMap;
 import java.util.Map;
 
-    public class WeatherSDK {
+public class WeatherSDK {
     private final String apiKey;
     private final Map<String, WeatherData> cache = new HashMap<>();
     private static final int MAX_CACHE_SIZE = 10;
