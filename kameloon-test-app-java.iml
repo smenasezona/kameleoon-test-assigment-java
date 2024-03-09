@@ -35,5 +35,14 @@
         <jarDirectory url="jar://$MODULE_DIR$/libs/okio-3.8.0.jar!/" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/slf4j-api-2.0.12.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
