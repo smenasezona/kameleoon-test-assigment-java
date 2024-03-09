@@ -12,21 +12,11 @@
 
 ```java
 WeatherSDK sdk = new WeatherSDK("your-api-key");
-try{
-WeatherSDK.WeatherData data = sdk.getWeather("London");
-    System.out.
-
-println("Weather data for London:");
-    System.out.
-
-println(data.getJson());
-        }catch(IOException |
-URISyntaxException e){
-        e.
-
-printStackTrace();
+try {
+    WeatherSDK.WeatherData data = sdk.getWeather("London");
+    } catch(IOException | URISyntaxException e) {
+        e.printStackTrace();
 }
-
 ```
 
 ## API Reference
