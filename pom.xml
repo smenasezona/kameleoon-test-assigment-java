@@ -11,7 +11,23 @@
 
     <name>Kameleoon Test task SDKWeather</name>
     <description>Test task for Kameleoon to create SDK for OpenWeatherMapAPI</description>
-    <url>https://github.com/yourusername/kameloon-test-app-java</url>
+    <url>https://github.com/smenasezona/kameloon-test-assigment-java</url>
+
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Kiyashko Artsiom</name>
+            <email>artemkiasko@gmail.com</email>
+            <url>https://github.com/smenasezona</url>
+        </developer>
+    </developers>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
